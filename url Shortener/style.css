@@ -1,0 +1,105 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left,#8585ff,#ff7878fd);
+    overflow: hidden;
+}
+.main{
+    background: linear-gradient(to top right,#ff3636fd,#6868ff);
+    height: 400px;
+    width: 500px;
+    padding: 1.2rem;
+    border-radius: 15px;
+    border: 2px solid blueviolet;
+}
+
+
+#longurl{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 20%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    cursor: pointer;
+    background-color: purple;
+}
+#shorten:active{
+    background-color: rgb(237, 22, 108);
+}
+
+
+#shorturl{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 32%;
+    left: 0%;
+    height: 34px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: purple;
+}
+
+#copy:active{
+    background-color: rgb(237, 22, 108);
+}
+
+.main p{
+    /* background-color: white; */
+    position: relative;
+    top: 10%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(160, 0, 0);
+}
